@@ -1,5 +1,6 @@
 Requirements:
-The only thing you need to do is grab a log token, and set the tokens in the python scripts.\n
+The only thing you need to do is grab a log token, and set the tokens in the python scripts.
+
 AWS - CentOS/AMI/RHEL t2.medium instance
 
 Cronjobs in sudo crontab -e:
