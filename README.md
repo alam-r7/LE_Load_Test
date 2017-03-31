@@ -1,6 +1,6 @@
 LE_Load_test
 --------------
-Automating 2TB/mo
+Automating 2TB/mo of unstructured, structured, and semi-structured data.
 
 Requirements
 --------------
