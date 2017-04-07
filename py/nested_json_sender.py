@@ -13,7 +13,7 @@ lines = str({"song": [{"title": "Never gonna drop your logs","contributors": {"a
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((HOST, PORT))
-for i in range(0, tts):
+for i in range(0, int(tts)):
 	s.sendall('%s %s\n' % (token, lines))
 	time.sleep(secs/tts)
 s.close
