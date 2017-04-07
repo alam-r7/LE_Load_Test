@@ -13,7 +13,7 @@ lines = ['Mar 15 18:32:02 ip-172-30-2-64 sshd[7842] Read from socket from 287.25
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((HOST, PORT))
-for i in range(0, tts):
+for i in range(0, int(tts)):
 	for i in lines:
 		s.sendall('%s %s\n' % (token, i))
 		time.sleep(secs/tts)
