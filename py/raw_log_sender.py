@@ -12,7 +12,7 @@ secs = 86400.0
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((HOST, PORT))
-for i in range(0, tts):
+for i in range(0, int(tts)):
 	s.sendall('%s %s\n' % (token, line))
 	time.sleep(secs/tts)
 s.close
