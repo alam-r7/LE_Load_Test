@@ -10,5 +10,5 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((HOST, PORT))
 while True:
 	s.sendall('%s %s\n' % (token, line))
-	time.sleep(.0017)
+	time.sleep(.012)
 s.close
