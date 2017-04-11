@@ -14,5 +14,5 @@ s.connect((HOST, PORT))
 while True:
 	for i in lines:
 		s.sendall('%s %s\n' % (token, i))
-		time.sleep(.0032)
+		time.sleep(.0239)
 s.close
