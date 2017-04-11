@@ -8,7 +8,7 @@ The only thing you need to do is grab a log token, and set the tokens in the pyt
 
 AWS - CentOS/AMI/RHEL t2.medium instance
 
-Clone the repo to ~ and set the cronjobs and you won't have to look at the instance again.
+Clone the repo to ~, or download and unzip, then set the cronjobs and you won't have to look at the instance again.
 
 Cronjobs
 --------
