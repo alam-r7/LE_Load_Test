@@ -12,10 +12,10 @@ Clone the repo to ~ and set the cronjobs and you won't have to look at the insta
 
 Cronjobs
 --------
-*/1 * * * * /home/ec2-user/py/raw_launch.sh
+*/1 * * * * /home/ec2-user/LE_Load_Test/py/raw_launch.sh
 
-*/1 * * * * /home/ec2-user/py/syslog_launch.sh
+*/1 * * * * /home/ec2-user/LE_Load_Test/py/syslog_launch.sh
 
-*/1 * * * * /home/ec2-user/py/access_launch.sh
+*/1 * * * * /home/ec2-user/LE_Load_Test/py/access_launch.sh
 
-*/1 * * * * /home/ec2-user/py/nested_launch.sh
+*/1 * * * * /home/ec2-user/LE_Load_Test/py/nested_launch.sh
